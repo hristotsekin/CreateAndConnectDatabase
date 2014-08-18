@@ -8,6 +8,8 @@ public class Main {
 		String user = "";
 		String password = "";
 		
+		System.out.println("After uploading");
+		
 		try{
 			
 			Class.forName("com.mysql.jdbc.Driver").newInstance();
